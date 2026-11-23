@@ -1,0 +1,12 @@
+Model,Family,Test_MAE,Test_RMSE
+GradientBoosting,Boosting,0.072,0.195
+StackingRegressor,Stacking,0.35,0.572
+XGBoost,Boosting,0.368,0.594
+CatBoost,Boosting,0.438,0.677
+LightGBM,Boosting,0.512,0.904
+BaggingRegressor,Bagging,3.392,4.205
+RF + ARIMA Hybrid,Hybrid (Time Series),5.182,7.508
+RandomForest,Bagging,5.408,7.717
+"ARIMA (1,0,1)",Time Series Baseline,16.405,20.478
+ANN (MLP) Only,Neural Baseline,26.632,33.667
+RF + ANN Hybrid,Hybrid (Tabular),29.944,38.143
